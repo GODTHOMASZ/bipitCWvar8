@@ -1,0 +1,43 @@
+﻿body {
+    font-family: Arial;
+    font-size: 18px;
+}
+
+.sidenavmenu a {
+    padding: 8px 8px 8px 32px;
+    font-size: 20px;
+    display: block;
+    width: 160px;
+    color: darkred;
+}
+
+.sidenavmenu {
+    height: 100%;
+    position: fixed;
+    background-color: #FFFFFF;
+    padding-top: 30px;
+    top: 15px;
+    left: 10px;
+    width: 226px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenavmenu {
+        padding-top: 15px;
+    }
+
+        .sidenavmenu a {
+            font-size: 18px;
+        }
+}
+
+.table {
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+    width: 552px;
+    top: 65px;
+    left: 249px;
+    height: 156px;
+    padding-bottom: 8px;
+}
